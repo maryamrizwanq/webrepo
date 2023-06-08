@@ -19,3 +19,6 @@ jobs:
 
       - name: push to AWS s3 bucket
         run: aws s3 sync s3://mybucketfordevops-exampractice
+
+
+
