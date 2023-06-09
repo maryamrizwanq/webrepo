@@ -21,4 +21,3 @@ jobs:
         run: aws s3 sync s3://mybucketfordevops-exampractice
 
 
-
