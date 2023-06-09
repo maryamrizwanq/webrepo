@@ -18,6 +18,6 @@ jobs:
           aws-region: us-east-1
 
       - name: push to AWS s3 bucket
-        run: aws s3 sync s3://mybucketfordevops-exampractice
+        run: aws s3 sync . s3://mybucketfordevops-exampractice
 
 
